@@ -197,28 +197,30 @@ involved:</p>
 		  
 		  <p>Quick Feedback</p>
 		  <form action="#" method="post">
-			  <label for="select-coffee">Favorite Coffee:</label>
-			  <select name="coffee" id="select-coffee">
-			    <optgroup label="Common coffee types">
-					<option value="latte">Latte</option>
-			      	<option value="cappucino">Cappucino</option>
-				  	<option value="mocha">Mocha</option>
-			    </optgroup>
-			    <optgroup label="Rare coffee types">
-			      <option value="penang-white-coffee">Penang White Coffee</option>
-			      <option value="yuzu-coffee">Yuzu Coffee</option>
-			    </optgroup>
-			  </select>
-			  <br><br>
-			  <label for="keyword-input">Coolest-sounding keyword:</label>
-			  <input list="keyword-input" name="keyword" id="keyword-input" placeholder="Type or choose...">
-			  <datalist id="keyword-input">
-				<option value="Quantum Entanglement">
-				<option value="Caffeine">
-				<option value="Temporal">
-			  </datalist>
-			  <br><br>
-			  <input type="submit" value="Submit">
+			  <fieldset>
+				  <label for="select-coffee">Favorite Coffee:</label>
+				  <select name="coffee" id="select-coffee">
+				    <optgroup label="Common coffee types">
+						<option value="latte">Latte</option>
+				      	<option value="cappucino">Cappucino</option>
+					  	<option value="mocha">Mocha</option>
+				    </optgroup>
+				    <optgroup label="Rare coffee types">
+				      <option value="penang-white-coffee">Penang White Coffee</option>
+				      <option value="yuzu-coffee">Yuzu Coffee</option>
+				    </optgroup>
+				  </select>
+				  <br><br>
+				  <label for="keyword-input">Coolest-sounding keyword:</label>
+				  <input list="keyword-input-list" name="keyword" id="keyword-input" placeholder="Type or choose...">
+				  <datalist id="keyword-input-list">
+					<option value="Quantum Entanglement">
+					<option value="Caffeine">
+					<option value="Temporal">
+				  </datalist>
+				  <br><br>
+				  <input type="submit" value="Submit">
+			  </fieldset>
 		</form>
 	  </section>
 	  <hr>
